@@ -24,7 +24,7 @@ const UserSearchForm: React.FC<UserSearchFormProps> = ({ onSearch }) => {
         required
         />
         </Row>
-        <Row >
+        <Row justify="center" align="middle">
         <Button type="primary" htmlType="submit">
           Search
         </Button>

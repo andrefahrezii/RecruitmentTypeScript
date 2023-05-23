@@ -1,21 +1,20 @@
-# Base image
-FROM node:14-alpine
+# Gunakan image Node.js sebagai dasar
+FROM node:latest
 
-# Set working directory
+# Buat direktori kerja di dalam kontainer
 WORKDIR /app
 
-# Install app dependencies
+# Salin package.json dan package-lock.json (jika ada) ke dalam kontainer
 COPY package*.json ./
+
+# Pasang dependensi
 RUN npm install
 
-# Copy app files
+# Salin kode sumber aplikasi ke dalam kontainer
 COPY . .
 
-# Build the app
+# Kompilasi TypeScript menjadi JavaScript (jika diperlukan)
 RUN npm run build
 
-# Expose the port
-EXPOSE 3000
-
-# Start the app
+# Jalankan aplikasi
 CMD [ "npm", "start" ]
