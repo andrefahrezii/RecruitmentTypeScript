@@ -16,5 +16,5 @@ COPY . .
 # Kompilasi TypeScript menjadi JavaScript (jika diperlukan)
 RUN npm run build
 
-# Jalankan aplikasi
+# Run Aplication
 CMD [ "npm", "start" ]

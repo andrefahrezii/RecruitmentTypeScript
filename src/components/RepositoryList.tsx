@@ -16,9 +16,6 @@ const RepositoryList: React.FC<RepositoryListProps> = ({ repositories }) => {
     <ul>
       {repositories.map((repo) => (
         <li key={repo.id}>
-          {/* <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-          {repo.name}
-          </a> */}
           <p>{repo.name}</p>
         </li>
       ))}

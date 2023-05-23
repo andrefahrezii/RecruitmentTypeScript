@@ -25,31 +25,11 @@ const UserSearchForm: React.FC<UserSearchFormProps> = ({ onSearch }) => {
         />
         </Row>
         <Row justify="center" align="middle">
-        <Button type="primary" htmlType="submit">
+        <Button type="primary" htmlType="submit"  style={{ height:"40px", width:"340px"}}>
           Search
         </Button>
         </Row>
     </form>
-//     <Form onSubmit={handleSubmit}>
-//     <Row>
-//       <Form.Item>
-//         <Input
-//           type="text"
-//           placeholder="Enter GitHub username"
-//           value={username}
-//           onChange={(e) => setUsername(e.target.value)}
-//           required
-//         />
-//       </Form.Item>
-//     </Row>
-//     <Row>
-//       <Form.Item>
-//         <Button type="primary" htmlType="submit">
-//           Search
-//         </Button>
-//       </Form.Item>
-//     </Row>
-//   </Form>
   );
 };
 

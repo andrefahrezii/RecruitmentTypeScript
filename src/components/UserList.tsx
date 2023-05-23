@@ -6,7 +6,7 @@ interface User {
   login: string;
   avatar_url: string;
   score?: string;
-  repositories?: Repository[]; // Tambahkan properti repositories di sini
+  repositories?: Repository[]; 
 }
 
 interface Repository {
@@ -22,7 +22,6 @@ interface UserListProps {
 
 const UserList: React.FC<UserListProps> = ({ users }) => {
   const onChange = (key: string | string[], user: User) => {
-    // Implementasikan logika ketika panel collapse berubah
   };
 
   return (
