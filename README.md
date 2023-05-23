@@ -44,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+# Getting Started with Create React App
+This document provides a step-by-step guide to getting started with Create React App, including installation, available scripts, and additional resources.
+
+## Installation
+To get started with Create React App, you need to have Node.js and npm (Node Package Manager) installed on your machine. Follow the steps below to install the necessary dependencies:
+
+1. Install Node.js: Visit the official Node.js website at https://nodejs.org and download the latest LTS version for your operating system. Follow the installation instructions to complete the setup.
+
+2. Verify the installation: Open a terminal or command prompt and run the following commands to verify that Node.js and npm are installed correctly:
+   
+### `node --version`
+### `npm --version`
